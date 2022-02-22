@@ -1,0 +1,37 @@
+/* Full Page Styles */
+* {
+    font-family: 'Karla', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    padding: 20px;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.project-logo {
+    height: 26px;
+}
+
+.project-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+}
+
+.project-description {
+    font-family: "Inter", sans-serif;
+}
