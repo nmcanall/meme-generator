@@ -1,14 +1,12 @@
 import './styles/App.css'
 import Header from "./components/Header";
-import Form from "./components/Form";
-import MemeField from "./components/MemeField";
+import Meme from "./components/Meme";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Form />
-      <MemeField />
+      <Meme />
     </div>
   );
 }
